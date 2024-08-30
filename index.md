@@ -36,6 +36,8 @@ My journey starts here.
 Johnny Fun
 ![Johnny](https://github.com/user-attachments/assets/d7c89688-afba-4bc7-be97-8e63520ebb2c)
 
+<!-- Liquid:  statements -->
+
 <!-- Include submenu from _includes to top of pages -->
 {% include nav/home.html %}
 <!--- Concatenation of site URL to frontmatter image  --->
