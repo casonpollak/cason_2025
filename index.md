@@ -219,6 +219,7 @@ My journey starts here.
 
 ```
 
-Johnny Fun
-![Johnny](https://github.com/user-attachments/assets/d7c89688-afba-4bc7-be97-8e63520ebb2c)
+Shawn Fun
+![shane at da stor](https://github.com/user-attachments/assets/97aaac79-7b30-4c6a-b4cb-b97dc2fcd684)
+
 
