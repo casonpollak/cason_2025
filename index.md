@@ -222,4 +222,8 @@ My journey starts here.
 Shawn Fun
 ![shane at da stor](https://github.com/user-attachments/assets/97aaac79-7b30-4c6a-b4cb-b97dc2fcd684)
 
+Jamedavid fun! 
+![jamedavid](https://github.com/user-attachments/assets/89991804-c8aa-4a24-a635-5bc959017349)
 
+Imposter fun!
+![IMPOSTOR](https://github.com/user-attachments/assets/8818d9ca-be04-47bf-b4b1-c8ef2d927934)
