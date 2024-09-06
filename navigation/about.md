@@ -126,11 +126,11 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/IMG_6340.PNG" alt="Image 3">
   <img src="{{site.baseurl}}/images/about/IMG_7389.PNG" alt="Image 4">
   <img src="{{site.baseurl}}/images/about/IMG_7483.PNG" alt="Image 5">
-  <img src="{{site.baseurl}}/images/about/lora_fam.jpg" alt="Image 6">
-  <img src="{{site.baseurl}}/images/about/lora_fam2.jpg" alt="Image 7">
-  <img src="{{site.baseurl}}/images/about/pj_party.jpg" alt="Image 8">
-  <img src="{{site.baseurl}}/images/about/trent.jpg" alt="Image 9">
-  <img src="{{site.baseurl}}/images/about/claire.jpg" alt="Image 10">
-  <img src="{{site.baseurl}}/images/about/grandkids.jpg" alt="Image 11">
-  <img src="{{site.baseurl}}/images/about/farm.jpg" alt="Image 12">
+  <img src="{{site.baseurl}}/images/about/IMG_7388.PNG" alt="Image 6">
+  <img src="{{site.baseurl}}/images/about/IMG_7267.PNG" alt="Image 7">
+  <img src="{{site.baseurl}}/images/about/IMG_6596.jpg" alt="Image 8">
+  <img src="{{site.baseurl}}/images/about/IMG_5514.JPG" alt="Image 9">
+  <img src="{{site.baseurl}}/images/about/IMG_5501.PNG" alt="Image 10">
+  <img src="{{site.baseurl}}/images/about/IMG_5498.PNG" alt="Image 11">
+  <img src="{{site.baseurl}}/images/about/IMG_5490.PNG" alt="Image 12">
 </div>
