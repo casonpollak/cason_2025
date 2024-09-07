@@ -133,6 +133,6 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/IMG_5498.PNG" alt="Image 11">
   <img src="{{site.baseurl}}/images/about/IMG_5490.PNG" alt="Image 12">
   <img src="{{site.baseurl}}/images/about/DSC01753.jpeg" alt="Image 13">
-  <img src="{{site.baseurl}}/images/about/8F325DD9-181C-4A9F-A6BC-4FB379DAB279.HEIC" alt="Image 14">
+  <img src="{{site.baseurl}}/images/about/Screenshot 2024-09-06 230622.png" alt="Image 14">
     
 </div>
