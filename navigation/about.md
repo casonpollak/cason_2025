@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ## As a conversation Starter
 
-Here are some places I have lived.
+Here are some important places in my life.
 
 <comment>
 Flags are made using Wikipedia images
@@ -58,7 +58,7 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - I was born in California and have lived here my whole life"},
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "", "description": "California - I was born in California and have lived here my whole life"},
         {"flag": "thumb/f/f7/Flag_of_Pennsylvania.svg/640px-Flag_of_Pennsylvania.svg.png", "greeting": "", "description": "Pennsylvania - My dad was born in Pennsylvania and this heavily influences my favorite football team (the Steelers)"},
         {"flag": "thumb/9/96/Flag_of_Connecticut.svg/640px-Flag_of_Connecticut.svg.png", "greeting": "", "description": "Connecticut - My mom was born here and grew up here for the first 20 years of her life. We visit Connecticut every other summer to reunite with family members"},
        // {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
@@ -95,27 +95,25 @@ Flags are made using Wikipedia images
     }
 </script>
 
-### Journey through Life
+### Some things about me
 
-Here is what I did at those places
 
-- 🏫 Lots of Elementary Schools in Tucson, LA, Honolulu, and Glendale (CA)
-- 🏫 Middle and High School in Glendale (CA), Hoover High graduated '77
-- 🎓 Glendale CA Community College, UCLA Extension, LA Wilshire Computer Tech School '77 to '79
-- ⛪ England, London Missionary for Church of Jesus Christ of Latter-day Saints '79 to '81
-- 💼 Culver City, Glendale CA founder at Ashton-Tate, original PC's dBase 2 and 3 '82 to '87
-- 🎓 Eugene Oregon Undergraduate CompSci Degree at University of Oregon (Go Ducks!) '89 to '91
-- 💼 Eugene Oregon, founder and owner @ Microniche `88, Point Control CAD CAM developer '91 to '96
-- 🏢 San Diego CA Qualcomm, Satellite Comm and 1st Mobile OS (BREW) '96 to '19
-- 👨‍🏫 San Diego CA Teacher of Computer Science @ Del Norte High School San Diego '19 to present
+- 🏀 Basketball is my favorite sport and has been my favorite sport my whole life
+- 🏈 I love watching football and played last year for the Del Norte freshman team 
+- 🎮 Video games are one of my favorite ways to pass my free time with my friends 
+- 🎓 I am in the high school class of 2027
+- 🎶 I love listening to music, my favorite genres at the moment are RnB and underground rap 
+- 📸 Sports photography is a hobby of mine when I am not playing
+- 👨‍👦‍👦 I have 2 step siblings and 2 biological siblings
 
-### Culture, Family, and Fun
 
-Everything for me, as for many others, revolves around family and faith.
+### Culture, and Friends
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
+Here are somethings about my culture, friends, adn sports.
+
+- I am Hungarian, English, and Irish.
+- I have many friends in school but the two friends that I have kept close since second grade are Grant and Samuel. (can be seen in the last picture in the gallery)
+- The gallery of pics has some of me, my family, and my friends.
 
 <comment>
 Gallery of Pics, scroll to the right for more ...
@@ -133,4 +131,7 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/IMG_5501.PNG" alt="Image 10">
   <img src="{{site.baseurl}}/images/about/IMG_5498.PNG" alt="Image 11">
   <img src="{{site.baseurl}}/images/about/IMG_5490.PNG" alt="Image 12">
+  <img src="{{site.baseurl}}/images/about/DSC01753.jpeg" alt="Image 13">
+  <img src="{{site.baseurl}}/images/about/8F325DD9-181C-4A9F-A6BC-4FB379DAB279.HEIC" alt="Image 14">
+    
 </div>
