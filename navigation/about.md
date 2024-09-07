@@ -58,10 +58,10 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - I was born in California and have lived here my whole life"},
+        {"flag": "thumb/f/f7/Flag_of_Pennsylvania.svg/640px-Flag_of_Pennsylvania.svg.png", "greeting": "", "description": "Pennsylvania - My dad was born in Pennsylvania and this heavily influences my favorite football team (the Steelers)"},
+        {"flag": "thumb/9/96/Flag_of_Connecticut.svg/640px-Flag_of_Connecticut.svg.png", "greeting": "", "description": "Connecticut - My mom was born here and grew up here for the first 20 years of her life. We visit Connecticut every other summer to reunite with family members"},
+       // {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
     ];
 
     // 3a. Consider how to update style count for size of container
