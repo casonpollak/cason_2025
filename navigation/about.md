@@ -105,6 +105,7 @@ Flags are made using Wikipedia images
 - 🎶 I love listening to music, my favorite genres at the moment are RnB and underground rap 
 - 📸 Sports photography is a hobby of mine when I am not playing
 - 👨‍👦‍👦 I have 2 step siblings and 2 biological siblings
+- 🏂 My family and I love snowboarding and we go many times a year.
 
 
 ### Culture, and Friends
