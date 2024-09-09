@@ -191,7 +191,6 @@ hide: true
 </script>
 
 
-My journey starts here.
 ### Markdown Samples  [Markdown Cheat Sheet](https://www.markdownguide.org/getting-started/)
 
 > Using markdown from index.md. We are learning markdown.
