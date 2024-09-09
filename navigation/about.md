@@ -110,11 +110,13 @@ Flags are made using Wikipedia images
 
 ### Culture, and Friends
 
-Here are somethings about my culture, friends, adn sports.
+Here are some things about my culture, friends, and sports.
 
+markdown***
 - I am Hungarian, English, and Irish.
 - I have many friends in school but the two friends that I have kept close since second grade are Grant and Samuel. (can be seen in the last picture in the gallery)
 - The gallery of pics has some of me, my family, and my friends.
+***
 
 <comment>
 Gallery of Pics, scroll to the right for more ...
