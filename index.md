@@ -210,7 +210,6 @@ My journey starts here.
 - Sample of bullets
 
 ```markdown
-
 - Introduction to concepts and requirements by the teacher
 - Project-based learning with teacher support, performing Agile/Scrum development
 - Coding, frontend, backend, devops, version control and algorithmic thinking
@@ -218,18 +217,11 @@ My journey starts here.
 - Performing team work, team communication and collaboration, peer reviews/grading
 - Focus on tehnical communications through project presentations and student led teaching
 - Grades are on projects, learnt concepts, and live reviews between student(s) and teacher
+```
 
 
-```markdown
-
-kasm test
-
-
-Shawn Fun
-![shane at da stor](https://github.com/user-attachments/assets/97aaac79-7b30-4c6a-b4cb-b97dc2fcd684)
 
 Jamedavid fun! 
 ![jamedavid](https://github.com/user-attachments/assets/89991804-c8aa-4a24-a635-5bc959017349)
 
-Imposter fun!
-![IMPOSTOR](https://github.com/user-attachments/assets/8818d9ca-be04-47bf-b4b1-c8ef2d927934)
+
