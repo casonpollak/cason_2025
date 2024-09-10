@@ -4,9 +4,9 @@ title: Intrests
 permalink: /intrests/
 ---
 
-### Coding topics I am interested in 
+## Coding topics I am interested in 
 
-## FPS games
+### FPS games
 ```
 - Valorant, how many coders/developers take to make a FPS game such as Valorant?
 - How long would it take to create a new character with totally new abilities?
