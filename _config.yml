@@ -5,7 +5,7 @@ github_username: casonpollak
 github_repo: "cason_2025" 
 baseurl: "/cason_2025"
 future: true
-#remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:
