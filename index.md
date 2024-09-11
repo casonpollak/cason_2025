@@ -218,13 +218,7 @@ hide: true
 - Grades are on projects, learnt concepts, and live reviews between student(s) and teacher
 ```
 
-<script src="https://utteranc.es/client.js"
-        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
 
 Jamedavid fun! 
 ![jamedavid](https://github.com/user-attachments/assets/89991804-c8aa-4a24-a635-5bc959017349)
