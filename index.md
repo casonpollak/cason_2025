@@ -219,9 +219,9 @@ hide: true
 ```
 
 <script src="https://utteranc.es/client.js"
-        repo="[portfolio_2025]"
-        issue-term="pathname"
-        theme="github-dark"
+        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
+        issue-term="title"
+        theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
