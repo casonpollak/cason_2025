@@ -138,3 +138,11 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/Screenshot 2024-09-06 230622.png" alt="Image 14">
     
 </div>
+
+<script src="https://utteranc.es/client.js"
+        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
