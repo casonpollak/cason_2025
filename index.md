@@ -219,7 +219,7 @@ hide: true
 ```
 
 <script src="https://utteranc.es/client.js"
-        repo="[cason_2025]"
+        repo="[portfolio_2025]"
         issue-term="pathname"
         theme="github-dark"
         crossorigin="anonymous"
