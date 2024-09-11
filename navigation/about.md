@@ -139,10 +139,4 @@ Gallery of Pics, scroll to the right for more ...
     
 </div>
 
-<script src="https://utteranc.es/client.js"
-        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
