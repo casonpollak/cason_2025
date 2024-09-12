@@ -6,6 +6,8 @@ image: /images/mario_animation.png
 hide: true
 ---
 
+{% include nav_home.html %}
+
 <!-- Liquid:  statements -->
 
 <!-- Include submenu from _includes to top of pages -->
