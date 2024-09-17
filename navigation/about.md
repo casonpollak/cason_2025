@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+
+{% include nav/home.html %}
+
 ## As a conversation Starter
 
 Here are some important places in my life.

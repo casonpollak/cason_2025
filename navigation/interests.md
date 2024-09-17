@@ -4,6 +4,8 @@ title: Intrests
 permalink: /intrests/
 ---
 
+{% include nav/home.html %}
+
 ## Coding topics I am interested in 
 
 ### FPS games
