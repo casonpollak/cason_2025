@@ -1,7 +1,9 @@
 ---
-layout: page 
+layout: base 
 title: Ideas
-search_exclude: true
 permalink: /ideas/
 ---
-future home of ideas
+
+{% include nav/home.html %}
+
+## Ideas
