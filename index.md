@@ -6,7 +6,7 @@ image: /images/mario_animation.png
 hide: true
 ---
 
-{% include nav_home.html %}
+
 
 <!-- Liquid:  statements -->
 
