@@ -6,7 +6,7 @@ image: /images/mario_animation.png
 hide: true
 ---
 
-
+{% include nav/home.html %}
 
 <!-- Liquid:  statements -->
 
@@ -219,6 +219,39 @@ hide: true
 - Focus on tehnical communications through project presentations and student led teaching
 - Grades are on projects, learnt concepts, and live reviews between student(s) and teacher
 ```
+
+%%html 
+
+<h3>HTML: This is a Heading</h3>
+<p>This is a paragraph.</p>
+
+<a href="https://www.rossipotti.de/ausgabe28/tetris/index.html">Tetris Game!</a>
+
+<img src="images/frontend/download.jpg"/>
+
+![john pork](https://cdn.prod.website-files.com/5d7e8885cad5174a2fcb98d7/64933f98a477f02e36a282d1_5eddd950e5cf1ec1fa5c2d83_virtual-influencer-john-pork.jpeg)
+
+<img alt="lebron" src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png"/>
+
+
+[This is link tag - Markdown](https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground)
+
+<a href="https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground">This is link tag - HTML</a>
+
+**Bolded Text in Markdown**
+
+<strong>Bolded Text in HTML</strong>
+
+*Italic Text in Markdown*
+
+<i>Italic Text in HTML</i>
+
+<p> This is a paragraph in HTML Markdown does not 
+have these following formats</p>
+
+<button>some button text</button>
+
+
 
 
 
