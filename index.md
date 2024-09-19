@@ -231,7 +231,7 @@ hide: true
 
 ![john pork](https://cdn.prod.website-files.com/5d7e8885cad5174a2fcb98d7/64933f98a477f02e36a282d1_5eddd950e5cf1ec1fa5c2d83_virtual-influencer-john-pork.jpeg)
 
-<img alt="lebron" src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png"/>
+<img alt="lebron" src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png" width="100" height="200"/>
 
 
 [This is link tag - Markdown](https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground)
@@ -249,11 +249,21 @@ hide: true
 <p> This is a paragraph in HTML Markdown does not 
 have these following formats</p>
 
-<button>some button text</button>
+<button>this is button text</button>
+
+<p>Explore my site with HTML!</p>
+
+<button><a href="https://casonpollak.github.io/cason_2025/about/">My About Page</a></button>
+
+<div>
+<a href="https://www.youtube.com/watch?v=omLNhD2HkNM">Music while you explore</a>
 
 
+<a href="https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground">This is link tag - HTML</a>
+</div>
 
-
+<p> This is a paragraph in HTML Markdown does not 
+have these following formats</p>
 
 Jamedavid fun! 
 ![jamedavid](https://github.com/user-attachments/assets/89991804-c8aa-4a24-a635-5bc959017349)
