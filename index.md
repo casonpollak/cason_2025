@@ -229,7 +229,6 @@ hide: true
 
 <img src="images/frontend/download.jpg"/>
 
-![john pork](https://cdn.prod.website-files.com/5d7e8885cad5174a2fcb98d7/64933f98a477f02e36a282d1_5eddd950e5cf1ec1fa5c2d83_virtual-influencer-john-pork.jpeg)
 
 <img alt="lebron" src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png" width="100" height="200"/>
 
@@ -258,14 +257,14 @@ have these following formats</p>
 <div>
 <a href="https://www.youtube.com/watch?v=omLNhD2HkNM">Music while you explore</a>
 
+<div>
 
-<a href="https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground">This is link tag - HTML</a>
+<a href="https://casonpollak.github.io/cason_2025/snake/">Play snake</a>
 </div>
 
-<p> This is a paragraph in HTML Markdown does not 
-have these following formats</p>
-
-Jamedavid fun! 
-![jamedavid](https://github.com/user-attachments/assets/89991804-c8aa-4a24-a635-5bc959017349)
+<p>Hope you enjoyed my page, thanks for exploring!</p>
 
 
+
+
+<img alt="lebron" src="https://github-production-user-asset-6210df.s3.amazonaws.com/179050618/364235652-89991804-c8aa-4a24-a635-5bc959017349.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240919T182003Z&X-Amz-Expires=300&X-Amz-Signature=9314affee093e55dbabe0c6ae5c7f4a3446b345f014ba75802400065042e395d&X-Amz-SignedHeaders=host" width="600" height="200"/>
