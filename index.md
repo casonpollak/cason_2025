@@ -267,6 +267,4 @@ have these following formats</p>
 <p>Hope you enjoyed my page, thanks for exploring!</p>
 
 
-
-
-<img alt="lebron" src="https://github-production-user-asset-6210df.s3.amazonaws.com/179050618/364235652-89991804-c8aa-4a24-a635-5bc959017349.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240919T182003Z&X-Amz-Expires=300&X-Amz-Signature=9314affee093e55dbabe0c6ae5c7f4a3446b345f014ba75802400065042e395d&X-Amz-SignedHeaders=host" width="600" height="200"/>
+.

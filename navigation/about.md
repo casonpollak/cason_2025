@@ -11,7 +11,7 @@ permalink: /about/
 Here are some important places in my life.
 
 <comment>
-Flags are made using Wikipedia images
+Flags are made using Wikipedia images.
 </comment>
 
 <style>
