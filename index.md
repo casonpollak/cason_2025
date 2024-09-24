@@ -252,19 +252,22 @@ have these following formats</p>
 
 
 
-<p>Explore my site with HTML!</p>
 
-<button><a href="https://casonpollak.github.io/cason_2025/about/">My About Page</a></button>
 
-<div>
-<a href="https://www.youtube.com/watch?v=omLNhD2HkNM">Music while you explore</a>
 
-<div>
 
-<a href="https://casonpollak.github.io/cason_2025/snake/">Play snake</a>
+
+<div style="border: 4px solid blue; padding: 20px;">
+  <p style="border: 4px solid red; font-size: 1.5em; padding: 10px;">Explore my site with HTML!</p>
+ <button><a href="https://casonpollak.github.io/cason_2025/about/">My About Page</a></button>
 </div>
 
-<p>Hope you enjoyed my page, thanks for exploring!</p>
+<br>
+<br>
 
+<div style="border: 4px solid white; padding: 20px;">
+  <a style="border: 4px solid blue; font-size: 1.5em; padding: 10px; display: block; width: 25%" href="https://www.youtube.com/watch?v=omLNhD2HkNM">Music while you explore</a>
+  <a style="border: 4px solid blue; font-size: 1.5em; padding: 10px; display: block; width: 25%" href="https://casonpollak.github.io/cason_2025/snake/">Play snake on my site</a>
+  <p style="border: 4px solid red; font-size: 1.5em; padding: 10px;">Hope you enjoyed my page, thanks for exploring!</p>
+</div>
 
-.
