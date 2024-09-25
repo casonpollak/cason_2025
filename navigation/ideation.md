@@ -4,6 +4,9 @@ title: Ideation Hack
 permalink: /ideation/
 ---
 
+{% include nav/home.html %}
+
+
 ### Section: Popcorn Hacks.
 <div>
   <p style="border: 4px solid red; font-size: 1.5em; padding: 10px;">Defining the purpose of the files in the RPG games:</p>
