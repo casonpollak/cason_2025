@@ -20,6 +20,6 @@ permalink: /ideation/
 
 <div>
   <p style="border: 4px solid red; font-size: 1.5em; padding: 10px;">Now, here are the background and player hacks that I completed</p> 
-  <button><a><p style="color: green;" href="https://casonpollak.github.io/cason_2025/rpg/">RPG Game With new character and background</p></a></button>
+  <button><a href="https://casonpollak.github.io/cason_2025/rpg/">Check out the new background and player here</a></button>
 
 </div>
