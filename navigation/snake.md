@@ -147,6 +147,10 @@ permalink: /snake/
         let food = {x: 0, y: 0};
         let score;
         let wall;
+        let appleImage = new Image();
+        appleImage.src = '{{site.baseurl}}/images/apple.png'; // Replace with the path to your apple image
+        const appleWidth = 20; // Set the desired width
+        const appleHeight = 20; // Set the desired height
         /* Display Control */
         /////////////////////////////////////////////////////////////
         // 0 for the game
@@ -277,7 +281,7 @@ permalink: /snake/
                 activeDot(snake[i].x, snake[i].y);
             }
             // Paint food
-            activeDot(food.x, food.y);
+            ctx.drawImage(appleImage, food.x * BLOCK, food.y * BLOCK, BLOCK, BLOCK);
             // Debug
             //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " + snake[0].y;
             // Recursive call after speed delay, déjà vu
