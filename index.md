@@ -220,17 +220,12 @@ hide: true
 - Grades are on projects, learnt concepts, and live reviews between student(s) and teacher
 ```
 
-%%html 
 
+<div style="border: 4px solid white; padding: 20px;">
 <h3>HTML: This is a Heading</h3>
 <p>This is a paragraph.</p>
 
 <a href="https://www.rossipotti.de/ausgabe28/tetris/index.html">Tetris Game!</a>
-
-<img src="images/frontend/download.jpg"/>
-
-
-<img alt="lebron" src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png" width="100" height="200"/>
 
 
 [This is link tag - Markdown](https://nighthawkcoders.github.io/portfolio_2025/frontend/basics/playground)
@@ -249,7 +244,7 @@ hide: true
 have these following formats</p>
 
 <button>this is button text</button>
-
+</div>
 
 
 

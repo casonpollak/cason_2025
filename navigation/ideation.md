@@ -26,3 +26,12 @@ permalink: /ideation/
   <button><a href="https://casonpollak.github.io/cason_2025/rpg/">Check out the new background and player here</a></button>
 
 </div>
+
+<div>
+  <p style="border: 4px solid red; font-size: 1.5em; padding: 10px;">What I want to do with my RPG </p>
+</div>
+
+<ul style="border: 4px solid green; font-size: 1em; padding: 10px;">
+  <li><strong>Add an NPC</strong>On the base level, I plan to add an NPC that you are able to interact with. Further down the road I plan to make it so you are able to purchase items that can help you in the game.  </li>
+
+</ul> 
