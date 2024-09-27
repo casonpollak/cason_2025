@@ -35,5 +35,5 @@ permalink: /ideation/
   <li><strong>Add an NPC:</strong> On the base level, I plan to add an NPC that you are able to interact with. Further down the road I plan to make it so you are able to purchase items that can help you in the game.  </li>
 <li><strong>Add music and sound effects:</strong> I added calming background music that you are able to play using shift while on the RPG game tab. I plan to add sound effects to my game in the fututre!  </li>
 <li><strong>Add battles:</strong> I would like to add opponents you can battle in the game and use the weapons/abilities that you can buy from the NPC.  </li>
-<li><strong>Create new scenes</strong> Creating new scenes that the character you play as can walk through would be a create touch to my RPG game.   </li>
+<li><strong>Create new scenes</strong> Creating new scenes that the character you play as can walk through would be a great touch to my RPG game.   </li>
 </ul> 
