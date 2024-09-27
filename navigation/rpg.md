@@ -4,16 +4,20 @@ title: RPG
 permalink: /rpg/
 ---
 
+
+<div id="indicator" style="display: none;">Music is Playing!</div>
+<script>
+    // Set the audio path using Liquid and define it globally
+    window.audioPath = '{{site.baseurl}}/assets/sounds/soundtrack.mp3';
+</script>
+<script src="{{site.baseurl}}/assets/js/rpg/rpgMusic.js"></script>
+
 <canvas id='gameCanvas'></canvas>
 
 <script type="module">
     import GameControl from '{{site.baseurl}}/assets/js/rpg/GameControl.js';
 
-    // Import the audio file
-    const backgroundMusic = new Audio('{{site.baseurl}}/assets/rpg/audio/minecraftbg.mp3');
-    backgroundMusic.loop = true;  // Set to loop
-
-    // Background data
+   // Background data
     const image_src = "{{site.baseurl}}/images/rpg/pixel background.jpg";
     const image_data = {
         pixels: {height: 1080, width: 1920}
@@ -36,14 +40,11 @@ permalink: /rpg/
     const sprite = {src: sprite_src, data: sprite_data};
 
     // Assets for game
-    const assets = {image: image, sprite: sprite};
+    //const assets = {}
+    //const assets = {image: image}
+    //const assets = {sprite: sprite}
+    const assets = {image: image, sprite: sprite}
 
     // Start game engine
     GameControl.start(assets);
-
-    // Start the background music when the game starts
-    backgroundMusic.play();
-
-
 </script>
-

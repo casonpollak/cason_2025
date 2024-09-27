@@ -32,6 +32,7 @@ permalink: /ideation/
 </div>
 
 <ul style="border: 4px solid green; font-size: 1em; padding: 10px;">
-  <li><strong>Add an NPC</strong>On the base level, I plan to add an NPC that you are able to interact with. Further down the road I plan to make it so you are able to purchase items that can help you in the game.  </li>
+  <li><strong>Add an NPC:</strong> On the base level, I plan to add an NPC that you are able to interact with. Further down the road I plan to make it so you are able to purchase items that can help you in the game.  </li>
+<li><strong>Add music and sound effects:</strong> I just finished adding calming background music that you are able to play using shift while on the RPG game tab. I plan to add sound effects to my game in the fututre!  </li>
 
 </ul> 
