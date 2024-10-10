@@ -18,11 +18,11 @@ class GameLevelWater {
     let height = GameEnv.innerHeight;
 
     // Background data
-    const image_src_water = path + "/images/rpg/water.png";
+    const image_src_water = path + "/images/rpg/background2.jpg";
     const image_data_water = {
         name: 'water',
         src: image_src_water,
-        pixels: {height: 580, width: 1038}
+        pixels: {height: 2133, width: 1920}
     };
 
     // Player 1 sprite data (turtle)
