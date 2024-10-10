@@ -94,4 +94,6 @@ gameControl.start(assets);
 ### Things that I changed
 - I changed many variables from <strong>snake_case</strong> and <strong>UPPER_CASE</strong> into <strong>camelCase</strong>
 
-### Code Block Hack
+
+<p style="color: white; font-size: 1.5em; padding: 10px;">
+ <strong>  </strong> </p>
