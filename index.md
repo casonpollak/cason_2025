@@ -42,17 +42,17 @@ This blog contains my journey into Coding.
     </a>
     <a href="{{site.baseurl}}/rpg/" style="text-decoration: none;">
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Turtle v0.0
+            RPG v0.0
         </div>
     </a>
     <a href="{{site.baseurl}}/rpg/dot1" style="text-decoration: none;">
         <div style="background-color: #FF8800; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Turtle v0.1
+            RPG v0.1
         </div>
     </a>
     <a href="{{site.baseurl}}/rpg/dot2" style="text-decoration: none;">
         <div style="background-color: #FFFF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Turtle v0.2
+            RPG v0.2
         </div>
     </a>
 </div>
