@@ -26,7 +26,7 @@ This blog contains my journey into Coding.
     <a href="https://vscode.dev/">
         <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode">
     </a>
-<a href="https://github.com/features/copilot">
+    <a href="https://github.com/features/copilot/">
     <img src="https://coreteka.com/wp-content/uploads/2023/03/%D0%A1opilot-by-GitHub.jpg" alt="Copilot by GitHub" width="100" height="28.5">
 </a>
 </div>
@@ -48,7 +48,7 @@ This blog contains my journey into Coding.
             RPG v0.0
         </div>
     </a>
-    <a href="{{site.baseurl}}/rpg/dot1" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/rpgv0.1" style="text-decoration: none;">
                 <div style="background-color: #FFD700; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             RPG v0.1
         </div>
