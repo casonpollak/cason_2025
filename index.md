@@ -26,9 +26,9 @@ This blog contains my journey into Coding.
     <a href="https://vscode.dev/">
         <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode">
     </a>
-        <a href="https://github.com/features/copilot">
-        <img src="/home/casonpollak/nighthawk/cason_2025/images/Copilot-by-GitHub.jpg" width="100" height="28.5">
-    </a>
+<a href="https://github.com/features/copilot">
+    <img src="/home/casonpollak/nighthawk/cason_2025/images/Copilot-by-GitHub.jpg" alt="Copilot by GitHub" width="100" height="28.5">
+</a>
 </div>
 
 <br>
