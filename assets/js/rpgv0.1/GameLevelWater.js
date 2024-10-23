@@ -44,20 +44,20 @@ class GameLevelWater {
     };
 
     // Player 2 sprite data (fish)
-    const sprite_src_fish = path + "/images/rpg/green character.png";
+    const sprite_src_fish = path + "/images/rpg/fishies.png";
     const sprite_data_fish = {
         name: 'fish',
         src: sprite_src_fish,
         SCALE_FACTOR: 16,
         STEP_FACTOR: 400,
         ANIMATION_RATE: 50,
-        pixels: {height: 72, width: 48},
+        pixels: {height: 256, width: 384},
         INIT_POSITION: { x: 200, y: 125 },
-        orientation: {rows: 4, columns: 3 },
+        orientation: {rows: 8, columns: 12 },
         down: {row: 0, start: 0, columns: 3 },  // 1st row
-        left: {row: 2, start: 0, columns: 3 },  // 2nd row
-        right: {row: 3, start: 0, columns: 3 }, // 3rd row
-        up: {row: 1, start: 0, columns: 3 },    // 4th row
+        left: {row: 1, start: 0, columns: 3 },  // 2nd row
+        right: {row: 2, start: 0, columns: 3 }, // 3rd row
+        up: {row: 3, start: 0, columns: 3 },    // 4th row
     };
 
     // NPC sprite data (frog)

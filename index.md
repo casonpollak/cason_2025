@@ -88,7 +88,7 @@ This blog contains my journey into Coding.
             For Loops & Sprites
         </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/json-output" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/json" style="text-decoration: none;">
         <div style="background-color: orange; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             JSON Objects & Arrays 
         </div>
