@@ -67,7 +67,7 @@ This blog contains my journey into Coding.
 > Here is my preparation for college topics, click to review my blogs
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/hacks" style="text-decoration: none;">
         <div style="background-color: blue; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Variables I/O
         </div>
@@ -77,18 +77,14 @@ This blog contains my journey into Coding.
             Data Types
         </div>
     </a>
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/hacks" style="text-decoration: none;">
-        <div style="background-color: pink; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Completed Hacks
-        </div>
+
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{{site.baseurl}}/csse/javascript/fundamentals/for-loops" style="text-decoration: none;">
         <div style="background-color: red; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             For Loops & Sprites
         </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}} .." style="text-decoration: none;">
+    <a href="{{site.baseurl}}/game/intro/json/" style="text-decoration: none;">
         <div style="background-color: orange; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             JSON Objects & Arrays 
         </div>
