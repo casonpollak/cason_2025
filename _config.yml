@@ -30,3 +30,5 @@ header_pages:
   - README4YML.md
   - navigation/interests.md
   - _notebooks/Foundation/Project/2024-10-25-variable.ipynb
+include:
+  - _notebooks

@@ -85,6 +85,11 @@ This blog contains my journey into Coding.
         </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/game/intro/json/" style="text-decoration: none;">
-        <div style="background-color: orange; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            JSON Objects & Arrays 
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{ site.baseurl }}/_notebooks/2024-10-25-variable.html" style="text-decoration: none;">
+        <div style="background-color: #FFD700; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            My Variables Lesson
         </div>
+    </a>
+</div>
