@@ -88,8 +88,40 @@ This blog contains my journey into Coding.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{ site.baseurl }}/csse/javascript/fundamentals/variables/lesson/" style="text-decoration: none;">
-        <div style="background-color: #FFD700; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: orange; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             My Variables Lesson
+        </div>
+    </a>
+</div>
+
+<br>
+
+### Completed Homework
+
+> Here are all of the homeworks that I have completed from the lessons that we have been doing
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/hw/" style="text-decoration: none;">
+        <div style="background-color: blue; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Classes and Methods
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/conditionals/hacks" style="text-decoration: none;">
+        <div style="background-color: purple; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Conditionals
+        </div>
+    </a>
+
+<a href="{{site.baseurl}}/csse/javascript/fundamentals/mathematic-expressions/hw/" style="text-decoration: none;">
+        <div style="background-color: purple; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Mathematic Expressions
+        </div>
+    </a>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{ site.baseurl }}/csse/fundamentals/nested-conditionals/hw/" style="text-decoration: none;">
+        <div style="background-color: orange; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Nested Conditionals
         </div>
     </a>
 </div>
