@@ -87,7 +87,7 @@ This blog contains my journey into Coding.
     <a href="{{site.baseurl}}/game/intro/json/" style="text-decoration: none;">
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{ site.baseurl }}/csse/javascript/fundamentals/variables/lesson/" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/lesson/" style="text-decoration: none;">
         <div style="background-color: orange; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             My Variables Lesson
         </div>
@@ -117,11 +117,17 @@ This blog contains my journey into Coding.
             Mathematic Expressions
         </div>
     </a>
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/csse/fundamentals/nestedconditionals/hw/" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/nested-conditionals/hw/" style="text-decoration: none;">
         <div style="background-color: green; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Nested Conditionals
         </div>
     </a>
 </div>
+
+<script src="https://utteranc.es/client.js"
+        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
