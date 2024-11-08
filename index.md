@@ -123,6 +123,12 @@ This blog contains my journey into Coding.
         </div>
     </a>
 </div>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/data-abstraction-hacks" style="text-decoration: none;">
+        <div style="background-color: blue; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Data Abstractions
+        </div>
+    </a>
+</div>
 
 <script src="https://utteranc.es/client.js"
         repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
@@ -131,3 +137,4 @@ This blog contains my journey into Coding.
         crossorigin="anonymous"
         async>
 </script>
+
