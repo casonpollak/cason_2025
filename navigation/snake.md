@@ -7,70 +7,96 @@ permalink: /snake/
 {% include nav/home.html %}
 
 <style>
-
-    body{
+    body {
+        background-color: #000000; /* Black background */
+        color: #FFA500; /* Orange text */
+        overflow: hidden; /* Hide overflow to prevent scrollbars */
     }
-    .wrap{
+    .wrap {
         margin-left: auto;
         margin-right: auto;
     }
 
-    canvas{
+    canvas {
         display: none;
         border-style: solid;
         border-width: 10px;
-        border-color:rgb(255, 2, 247);
+        border-color: #FFA500; /* Orange border */
     }
-    canvas:focus{
+    canvas:focus {
         outline: none;
     }
 
     /* All screens style */
-    #gameover p, #setting p, #menu p{
+    #gameover p, #setting p, #menu p {
         font-size: 20px;
     }
 
-    #gameover a, #setting a, #menu a{
+    #gameover a, #setting a, #menu a {
         font-size: 30px;
         display: block;
+        color: #FFA500; /* Orange text */
     }
 
-    #gameover a:hover, #setting a:hover, #menu a:hover{
+    #gameover a:hover, #setting a:hover, #menu a:hover {
         cursor: pointer;
     }
 
-    #gameover a:hover::before, #setting a:hover::before, #menu a:hover::before{
+    #gameover a:hover::before, #setting a:hover::before, #menu a:hover::before {
         content: ">";
         margin-right: 10px;
     }
 
-    #menu{
+    #menu {
         display: block;
     }
 
-    #gameover{
+    #gameover {
         display: none;
     }
 
-    #setting{
+    #setting {
         display: none;
     }
 
-    #setting input{
-        display:none;
+    #setting input {
+        display: none;
     }
 
-    #setting label{
+    #setting label {
         cursor: pointer;
+        background-color: #FFA500; /* Orange background */
+        color: #000000; /* Black text */
+        padding: 5px;
+        border-radius: 5px;
     }
 
-    #setting input:checked + label{
-        background-color: #FFF;
-        color: #000;
+    #setting input:checked + label {
+        background-color: #000000; /* Black background */
+        color: #FFA500; /* Orange text */
+    }
+
+    /* Bat animation */
+    .bat {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: url('{{site.baseurl}}/images/snake/bat.png') no-repeat center center;
+        background-size: contain;
+        animation: fly 10s linear infinite;
+    }
+
+    @keyframes fly {
+        0% {
+            transform: translateX(-100px) translateY(0);
+        }
+        100% {
+            transform: translateX(100vw) translateY(-100px);
+        }
     }
 </style>
 
-<h2>Snake</h2>
+<h2>Halloween Snake Game</h2>
 <div class="container">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
         <p class="fs-4">Score: <span id="score_value">0</span></p>
@@ -78,22 +104,22 @@ permalink: /snake/
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
         <div id="menu" class="py-4 text-light">
-            <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin</p>
-            <a id="new_game" class="link-alert">new game</a>
-            <a id="setting_menu" class="link-alert">settings</a>
+            <p>Welcome to the Halloween Snake Game, press <span style="background-color: #FFA500; color: #000000">space</span> to begin</p>
+            <a id="new_game" class="link-alert">New Game</a>
+            <a id="setting_menu" class="link-alert">Settings</a>
         </div>
         <!-- Game Over -->
         <div id="gameover" class="py-4 text-light">
-            <p>Game Over, press <span style="background-color: #FFFFFF; color: #000000">space</span> to try again</p>
-            <a id="new_game1" class="link-alert">new game</a>
-            <a id="setting_menu1" class="link-alert">settings</a>
+            <p>Game Over, press <span style="background-color: #FFA500; color: #000000">space</span> to try again</p>
+            <a id="new_game1" class="link-alert">New Game</a>
+            <a id="setting_menu1" class="link-alert">Settings</a>
         </div>
         <!-- Play Screen -->
         <canvas id="snake" class="wrap" width="320" height="320" tabindex="1"></canvas>
         <!-- Settings Screen -->
         <div id="setting" class="py-4 text-light">
-            <p>Settings Screen, press <span style="background-color: #FFFFFF; color: #000000">space</span> to go back to playing</p>
-            <a id="new_game2" class="link-alert">new game</a>
+            <p>Settings Screen, press <span style="background-color: #FFA500; color: #000000">space</span> to go back to playing</p>
+            <a id="new_game2" class="link-alert">New Game</a>
             <br>
             <p>Speed:
                 <input id="speed1" type="radio" name="speed" value="120" checked/>
@@ -147,10 +173,10 @@ permalink: /snake/
         let food = {x: 0, y: 0};
         let score;
         let wall;
-        let appleImage = new Image();
-        appleImage.src = '{{site.baseurl}}/images/apple.png'; // Replace with the path to your apple image
-        const appleWidth = 20; // Set the desired width
-        const appleHeight = 20; // Set the desired height
+        let candyCornImage = new Image();
+        candyCornImage.src = '{{site.baseurl}}/images/snake/candiestcorn.png'; // Path to your candy corn image
+        const candyCornWidth = 10; // Set the desired width
+        const candyCornHeight = 10; // Set the desired height
         /* Display Control */
         /////////////////////////////////////////////////////////////
         // 0 for the game
@@ -217,7 +243,22 @@ permalink: /snake/
                 if(evt.code === "Space" && SCREEN !== SCREEN_SNAKE)
                     newGame();
             }, true);
+
+            // Add bats to the background
+            addBats();
         }
+
+        /* Add bats to the background */
+        let addBats = function() {
+            for (let i = 0; i < 10; i++) {
+                let bat = document.createElement('div');
+                bat.className = 'bat';
+                bat.style.top = Math.random() * window.innerHeight + 'px';
+                bat.style.left = -100 + 'px';
+                document.body.appendChild(bat);
+            }
+        }
+
         /* Snake is on the Go (Driver Function)  */
         /////////////////////////////////////////////////////////////
         let mainLoop = function(){
@@ -274,14 +315,14 @@ permalink: /snake/
             }
             // Repaint canvas
             ctx.beginPath();
-            ctx.fillStyle = "royalblue";
+            ctx.fillStyle = "#000000"; // Black background
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             // Paint snake
             for(let i = 0; i < snake.length; i++){
                 activeDot(snake[i].x, snake[i].y);
             }
             // Paint food
-            ctx.drawImage(appleImage, food.x * BLOCK, food.y * BLOCK, BLOCK, BLOCK);
+            ctx.drawImage(candyCornImage, food.x * BLOCK, food.y * BLOCK, candyCornWidth, candyCornHeight);
             // Debug
             //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " + snake[0].y;
             // Recursive call after speed delay, déjà vu
@@ -334,7 +375,7 @@ permalink: /snake/
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
         let activeDot = function(x, y){
-            ctx.fillStyle = "#FFFFFF";
+            ctx.fillStyle = "#800080"; // Purple color for snake
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
         /* Random food placement */
@@ -370,7 +411,7 @@ permalink: /snake/
         let setWall = function(wall_value){
             wall = wall_value;
             if(wall === 0){screen_snake.style.borderColor = "#606060";}
-            if(wall === 1){screen_snake.style.borderColor = "#FFFFFF";}
+            if(wall === 1){screen_snake.style.borderColor = "#FFA500";}
         }
     })();
 </script>
