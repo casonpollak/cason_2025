@@ -186,7 +186,6 @@ permalink: /flashcards/
                 options: ["Loading and unloading passengers only", "No parking", "Emergency vehicles only", "Bus stop"],
                 answer: 0
             },
-            // Adding 100 more questions
             {
                 question: "What is the penalty for refusing a breathalyzer test?",
                 options: ["License suspension", "A fine", "No penalty", "A warning"],
@@ -285,6 +284,89 @@ permalink: /flashcards/
             {
                 question: "What is the safe following distance behind another vehicle?",
                 options: ["3 seconds", "1 second", "5 seconds", "10 seconds"],
+                answer: 0
+            },
+
+            // Added 30 more questions
+
+            {
+                question: "What should you do if you approach an intersection and the traffic signal is not working?",
+                options: ["Treat it as a stop sign", "Proceed through with caution", "Go through without stopping", "Wait for the light to change"],
+                answer: 0
+            },
+            {
+                question: "What is the meaning of a solid white line on the road?",
+                options: ["Do not change lanes", "You may pass", "Caution", "Stop if needed"],
+                answer: 0
+            },
+            {
+                question: "What is the best way to prevent drowsy driving?",
+                options: ["Take regular breaks", "Drink caffeine", "Drive with the windows down", "Listen to loud music"],
+                answer: 0
+            },
+            {
+                question: "What should you do if your vehicle begins to overheat?",
+                options: ["Turn off the air conditioning and pull over", "Speed up", "Turn on the heater", "Keep driving until you reach a mechanic"],
+                answer: 0
+            },
+            {
+                question: "When is it safe to drive through a puddle of water on the road?",
+                options: ["When you can see the road clearly through the water", "Only if the water is shallow", "Never", "When driving at high speed"],
+                answer: 0
+            },
+            {
+                question: "What is the proper hand signal for a right turn?",
+                options: ["Left arm bent at a 90-degree angle, pointing up", "Left arm straight out", "Left arm bent at a 90-degree angle, pointing down", "Left arm waving in the air"],
+                answer: 0
+            },
+            {
+                question: "How should you drive when approaching a construction zone?",
+                options: ["Slow down and be alert", "Speed up to pass quickly", "Stop and wait for instructions", "Drive in the center of the lane"],
+                answer: 0
+            },
+            {
+                question: "What does a rectangular traffic sign typically indicate?",
+                options: ["Regulatory information", "Warning", "Speed limits", "Stop or yield"],
+                answer: 0
+            },
+            {
+                question: "What is the purpose of an HOV lane?",
+                options: ["To encourage carpooling", "To give priority to buses", "For emergency vehicles", "To reduce congestion"],
+                answer: 0
+            },
+            {
+                question: "What should you do when driving in foggy conditions?",
+                options: ["Use low-beam headlights", "Use high-beam headlights", "Keep your headlights off", "Drive faster to clear the fog"],
+                answer: 0
+            },
+            {
+                question: "What does a flashing red light mean?",
+                options: ["Treat it as a stop sign", "Slow down and proceed", "Yield to cross traffic", "Stop and wait for the light to turn green"],
+                answer: 0
+            },
+            {
+                question: "What is the primary purpose of a skid?",
+                options: ["Loss of traction", "Too much speed", "Vehicle malfunction", "Ice on the road"],
+                answer: 0
+            },
+            {
+                question: "How far from a crosswalk should you stop?",
+                options: ["Before the stop line or crosswalk", "In the middle of the crosswalk", "At the curb", "10 feet from the crosswalk"],
+                answer: 0
+            },
+            {
+                question: "What should you do if you're driving behind a large truck and can't see the road ahead?",
+                options: ["Stay back until you can see around the truck", "Speed up to pass", "Tailgate to signal the truck to move", "Move into the opposite lane immediately"],
+                answer: 0
+            },
+            {
+                question: "What does a solid red traffic light mean?",
+                options: ["Stop", "Yield", "Proceed with caution", "Stop and yield to pedestrians"],
+                answer: 0
+            },
+            {
+                question: "What should you do if you’re involved in an accident?",
+                options: ["Call the authorities and exchange information", "Leave the scene", "Apologize and admit fault", "Only call insurance later"],
                 answer: 0
             }
         ];
