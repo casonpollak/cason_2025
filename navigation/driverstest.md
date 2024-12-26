@@ -1,3 +1,10 @@
+---
+layout: base
+title: Snake
+permalink: /snake/
+---
+{% include nav/home.html %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
