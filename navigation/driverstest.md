@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Snake
-permalink: /snake/
+title: Drivers Practice
+permalink: /flashcards/
 ---
 {% include nav/home.html %}
 
