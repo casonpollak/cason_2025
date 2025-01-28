@@ -67,9 +67,9 @@ This blog contains my journey into Coding.
 > Here is my preparation for college topics, click to review my blogs
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/hacks" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/_notebooks/sprint-6/blogs" style="text-decoration: none;">
         <div style="background-color: blue; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Variables I/O
+            My Blogs | Sprint 6
         </div>
     </a>
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/data-types/" style="text-decoration: none;">
