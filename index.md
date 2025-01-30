@@ -79,7 +79,7 @@ This blog contains my journey into Coding.
     </a>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{{site.baseurl}}/csse/javascript/fundamentals/for-loops" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/for-loops" style="text-decoration: none;">
         <div style="background-color: red; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             For Loops & Sprites
         </div>
